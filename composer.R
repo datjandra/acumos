@@ -38,7 +38,7 @@ train$overall_star_rating = ifelse(train$overall_star_rating < 4, 0, 1)
 
 ## Attempt to compose logistic regression model.
 descriptor = lapply(train, class)
-compose(predict=function(..., inputs=descriptor) as.character(predict(model, as.data.frame(list(...)))),
+compose(predict=function(..., inputs=descriptor) as.character(predict(model, as.data.frame(list(...)), type="response")),
         aux = list(
           model = glm(overall_star_rating ~
             price_range +
