@@ -9,8 +9,11 @@ def yes_no(number):
 
 def test_data():
     pi = pb.predictInput()
+    # these variables have no effect on prediction
     pi.id.append(1)
     pi.overall_Xstar_Xrating.append(0)
+
+    # these are the dependent variables for prediction
     pi.price_Xrange.append("$")
     pi.restaurant_Xservices_Xdelivery.append(0)
     pi.restaurant_Xservices_Xcatering.append(0)

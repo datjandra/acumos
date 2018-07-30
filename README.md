@@ -60,22 +60,17 @@ $
 
 Test prediction with different inputs in predict.py script.
 ```
-def test_data():
-    pi = pb.predictInput()
-    pi.id.append(1)
-    pi.overall_Xstar_Xrating.append(0)
-    pi.price_Xrange.append("$")
-    pi.restaurant_Xservices_Xdelivery.append(0)
-    pi.restaurant_Xservices_Xcatering.append(0)
-    pi.restaurant_Xservices_Xgroups.append(1)
-    pi.restaurant_Xservices_Xkids.append(1)
-    pi.restaurant_Xservices_Xoutdoor.append(1)
-    pi.restaurant_Xservices_Xreserve.append(0)
-    pi.restaurant_Xservices_Xtakeout.append(1)
-    pi.restaurant_Xservices_Xwaiter.append(1)
-    pi.restaurant_Xservices_Xwalkins.append(1)
-    pi.parking_Xlot.append(0)
-    pi.parking_Xstreet.append(1)
-    pi.parking_Xvalet.append(0)
-    return pi
+pi.price_Xrange.append("$")
+pi.restaurant_Xservices_Xdelivery.append(0)
+pi.restaurant_Xservices_Xcatering.append(0)
+pi.restaurant_Xservices_Xgroups.append(1)
+pi.restaurant_Xservices_Xkids.append(1)
+pi.restaurant_Xservices_Xoutdoor.append(1)
+pi.restaurant_Xservices_Xreserve.append(0)
+pi.restaurant_Xservices_Xtakeout.append(1)
+pi.restaurant_Xservices_Xwaiter.append(1)
+pi.restaurant_Xservices_Xwalkins.append(1)
+pi.parking_Xlot.append(0)
+pi.parking_Xstreet.append(1)
+pi.parking_Xvalet.append(0)
 ```
