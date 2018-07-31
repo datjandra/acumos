@@ -5,6 +5,11 @@ Basic "hello world" example to:
 1. Compose ratings prediction model for on-boarding to Acumos.
 2. Script to test model locally.
 
+## Use cases
+1. Social media optimization
+2. Brand expansion  
+3. Predictive real estate model
+
 ## How to run it?
 1. Install Docker, R and Python.
 2. Install Acumos library for R one time.
