@@ -2,7 +2,7 @@
 ## What is this project about?
 Basic "hello world" example to:
 
-1. Compose ratings prediction model for on-boarding to Acumos.
+1. Compose ratings prediction model for on-boarding to Acumos marketplace.
 2. Script to test model locally.
 
 ## Use cases
