@@ -86,7 +86,7 @@ pi.parking_Xvalet.append(0)
 1.  Acumos micro-service uses protocol buffer from Google.
     Protocol buffer is a way of translating object state into formats that could be sent over networks.
     Similar to older protocols like SOAP, which is not widely used anymore compared to JSON.
-    The first step is to download [protobuf] (https://github.com/google/protobuf) from Github.
+    The first step is to download [protobuf](https://github.com/google/protobuf) from Github.
 
 2.  Unfortunately, protobuf is in C source code and must be compiled to produce binaries.
     In protobuf directory, run ./configure and then run make.
