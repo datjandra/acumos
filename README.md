@@ -80,13 +80,16 @@ pi.parking_Xstreet.append(1)
 pi.parking_Xvalet.append(0)
 ```
 
-## How was the Python file component_pb2.py used in predict.py created?
+## Optional technical coding stuff
+### How was the Python file component_pb2.py used in predict.py created?
+
 1.  Acumos micro-service uses protocol buffer from Google.
     Protocol buffer is a way of translating object state into formats that could be sent over networks.
     Similar to older protocols like SOAP, which is not widely used anymore compared to JSON.
-    So first step is to download [protobuf] (https://github.com/google/protobuf) from Github.
+    The first step is to download [protobuf] (https://github.com/google/protobuf) from Github.
 
-2.  Unfortunately, protobuf is in C source code and must be compiled to produce binaries. In protobuf directory, run ./configure and then run make.
+2.  Unfortunately, protobuf is in C source code and must be compiled to produce binaries.
+    In protobuf directory, run ./configure and then run make.
 
 3.  If make in step #2 runs without errors, there should be a protoc binary created under src directory.
     Copy that file to /usr/local/bin/ or another location on the system path.  
@@ -104,7 +107,9 @@ Archive:  component.amc
     43898                   3 files
 ```    
 
-5.  Extract component.proto from the zip file. Then run protoc with component.proto as argument. For Python code, the command looks like this.
+5.  Extract component.proto from the zip file.
+    Then run protoc with component.proto as argument.
+    For Python code, the command looks like this.
 ```
 $ protoc --python_out=. component.proto
 ```
