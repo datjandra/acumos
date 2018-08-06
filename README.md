@@ -10,6 +10,12 @@ Basic "hello world" example to:
 2. Brand expansion  
 3. Predictive real estate model
 
+## Training data
+Training data was curated from Facebook Graph Search by searching for keyword "burgers".
+Places without parking and restaurant features were excluded.
+More data could be obtained by searching for other keywords or by adding location filters.
+For this project, a small amount of training data was sufficient to test Acumos workflow.
+
 ## How to run it?
 1. Install Docker, R and Python.
 2. Install Acumos library for R one time.
